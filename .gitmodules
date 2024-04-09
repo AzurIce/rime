@@ -1,0 +1,18 @@
+[submodule "dicts/THUOCL"]
+	path = submodules/THUOCL
+	url = https://github.com/thunlp/THUOCL.git
+[submodule "dicts/chinese-dictionary-3.6million"]
+	path = submodules/chinese-dictionary-3.6million
+	url = https://github.com/fkxxyz/chinese-dictionary-3.6million.git
+[submodule "dicts/rime-pinyin-simp"]
+	path = submodules/rime-pinyin-simp
+	url = https://github.com/rime/rime-pinyin-simp.git
+[submodule "dicts/rime-essay"]
+	path = submodules/rime-essay
+	url = https://github.com/rime/rime-essay.git
+[submodule "dicts/rime-symbols"]
+	path = submodules/rime-symbols
+	url = https://github.com/fkxxyz/rime-symbols.git
+[submodule "dicts/rime-emoji"]
+	path = submodules/rime-emoji
+	url = https://github.com/rime/rime-emoji.git

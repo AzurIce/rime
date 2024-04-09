@@ -1,0 +1,5 @@
+# Put the project python dependencies here
+pypinyin
+opencc
+jieba
+tqdm
