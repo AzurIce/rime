@@ -13,11 +13,11 @@ submodule:
   git submodule update --init --recursive
 
 gen-rime-symbols:
+  mkdir -p dicts
   mkdir -p cache/opencc
   cd cache/opencc && ../../submodules/rime-symbols/rime-symbols-gen
   cd cache && cat ../submodules/rime-emoji/opencc/*.txt opencc/*.txt | opencc -c t2s.json | uniq > ../dicts/symbols.txt
 
 gen-dicts: gen-rime-symbols
-  mkdir -p dicts
   python scripts/clover-dict-gen.py
   python scripts/thuocl2rime.py
